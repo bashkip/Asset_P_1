@@ -1,0 +1,11 @@
+,CAPM,3F
+GRS,2.7142,3.0005
+p-value,0.0000,0.0000
+5% critical value,1.5241,1.5242
+Mean |alpha| (%),0.1441,0.1314
+# |t| > 1.96,8.0000,8.0000
+Total R2 (%),75.4282,91.2681
+Predictive R2 (%),1.2475,1.2766
+SR factors (monthly),0.1316,0.1580
+SR factors + 25 portfolios (monthly),0.3607,0.3886
+SR not rejected at 5% (monthly),0.2840,0.2983

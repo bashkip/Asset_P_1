@@ -1,0 +1,6 @@
+,E[R] (%),Vol (%),Sharpe (monthly),Sharpe (annual)
+"Tangency, 25 portfolios",4.2,11.0,0.36,1.24
+"Tangency, 3 factors",0.76,3.24,0.16,0.55
+Mkt-RF,0.85,4.57,0.13,0.46
+SMB,0.36,3.02,0.04,0.12
+ST_Rev,0.66,3.28,0.12,0.43
