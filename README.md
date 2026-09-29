@@ -8,7 +8,7 @@ Test assets: 25 portfolios double-sorted on size and short-term reversal (Kennet
 |---|---|
 | `data/` | Raw inputs: `25_Portfolios_ME_Prior_1_0.csv`, `F-F_Research_Data_5_Factors_2x3.csv`, `F-F_ST_Reversal_Factor.csv` (monthly, from French's library), `start_end_fem21003.xlsx` (sample periods) |
 | `code/data_loader.py` | Sample period, parsing of the French CSVs, excess returns, factors, characteristics |
-| `code/metrics.py` | Time-series OLS, GRS test, max Sharpe ratio, Kelly-Pruitt-Su total / predictive R² |
+| `code/metrics.py` | Time-series OLS with Newey-West (HAC) and OLS alpha standard errors, GRS test, max Sharpe ratio, Kelly-Pruitt-Su total / predictive R² |
 | `code/factor_models.py` | Rank-transformed instruments, static PCA, restricted IPCA (ALS) |
 | `code/Q1.py` … `code/Q4.py` | One script per question |
 | `code/main.py` | Runs Q1–Q4 in order |
